@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Roboto, sans-serif;
+}
+
+.login-page {
+  width: 360px;
+  padding: 8% 0 0;
+  margin: auto;
+}
+
+.form {
+  position: relative;
+  z-index: 1;
+  background: #fff;
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+  border: 1px solid #dbdbdb;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  width: 175px;
+  margin: 0 auto 30px;
+  display: block;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input[type="text"],
+input[type="password"] {
+  font-family: Roboto, sans-serif;
+  padding: 10px;
+  margin-bottom: 15px;
+  width: 100%;
+  border: none;
+  border-radius: 20px;
+  background-color: #fafafa;
+}
+
+button {
+  font-family: Roboto, sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 14px;
+  color: #fff;
+  background-color: #3897f0;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #5cbbf6;
+}
+
+.message {
+  font-size: 12px;
+  margin-top: 30px;
+}
+
+  .center {
+    text-align: center;
+    padding-top: 50px;
+  }
+
+
+
+a {
+  color: #3897f0;
+  text-decoration: none;
+}
