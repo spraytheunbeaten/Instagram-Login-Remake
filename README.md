@@ -1,6 +1,6 @@
 # Instagram Login Remake
 
-![Instagram Login Remake](./preview.png)
+![Instagram Login Remake](./preview.jpeg)
 
 This project includes a redesign of the Instagram login page. The redesigned page is similar to the original Instagram login page, but it contains some differences.
 
